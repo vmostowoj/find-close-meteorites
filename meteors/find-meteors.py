@@ -1,6 +1,7 @@
 import math
 import requests
 
+#test
 def calc_dist(lat1, lon1, lat2, lon2):
     lat1 = math.radians(lat1)
     lon1 = math.radians(lon1)
@@ -16,7 +17,7 @@ def calc_dist(lat1, lon1, lat2, lon2):
 
 def get_dist(meteor):
     return meteor.get('distance', math.inf)
-    
+
 if __name__ == '__main__':
     my_loc = (29.424122, -98.493628)
 
